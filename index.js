@@ -17,7 +17,7 @@ function nowServing(katzDeliLine){
   return (`Currently serving ${katzDeliLine.shift()}.`);
 }
 
-function currentLine(){
+function currentLine(katzDeliLine){
   var i = 0;
   return "The line is currently: 1. Ada, 2. Grace";
 }
